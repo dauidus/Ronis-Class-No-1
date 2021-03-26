@@ -19,7 +19,7 @@
 }
 
 .bk-info {
-	position: relative;
+	position: fixed;
 	margin-top: 440px;
 }
 
@@ -162,7 +162,7 @@
 	-moz-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
 	transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
 	box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
-	border-radius: 3px 0 0 3px;
+	border-radius: 10px 0 0 10px;
 }
 
 .bk-list li .bk-cover-back {
@@ -454,7 +454,7 @@
 .book-2 .bk-cover h2 span:last-child:before {
 	content: 'by';
 	font-size: 16px;
-	color: red;
+	color: #ccc;
 	position: absolute;
 	top: -32px;
 	left: 62px;
